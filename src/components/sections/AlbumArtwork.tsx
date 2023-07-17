@@ -7,10 +7,10 @@ const AlbumArtwork = () => (
     <div className="album-artwork__image-container">
       <Image
         alt=""
-        objectFit="contain"
         fill
         src={albumArtNoText}
         className="album-artwork__image"
+        priority
       />
     </div>
   </section>
