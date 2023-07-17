@@ -1,3 +1,10 @@
-.hero__album-image {
+.hero-background {
   z-index: -1;
+  background-color: $album-border;
+  height: 100%;
+  width: 100%;
+
+  // &__album-image {
+  //   z-index: 0;
+  // }
 }

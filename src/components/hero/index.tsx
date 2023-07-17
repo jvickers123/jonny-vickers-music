@@ -1,11 +1,10 @@
-import AlbumBackground from './albumBackground';
+import AlbumArtwork from './albumArtwork';
+import HeroTextContent from './textContent';
 
 const Hero = () => (
   <div className="hero">
-    <AlbumBackground />
-    <div className="hero__text-content">
-      <h1 className="hero__heading">Jonny Vickers</h1>
-    </div>
+    <HeroTextContent />
+    <AlbumArtwork />
   </div>
 );
 
