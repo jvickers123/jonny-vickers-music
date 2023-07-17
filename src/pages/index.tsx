@@ -1,6 +1,9 @@
 import Head from 'next/head';
 
-import Hero from '@/components/hero';
+import Header from '@/components/sections/Header';
+import AlbumArtwork from '@/components/sections/AlbumArtwork';
+import Links from '@/components/sections/Links';
+import Footer from '@/components/sections/Footer';
 
 export default function Home() {
   return (
@@ -12,7 +15,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">
-        <Hero />
+        <div className="main-content-container">
+          <Header />
+          <AlbumArtwork />
+          <Links />
+          <Footer />
+        </div>
       </main>
     </>
   );

@@ -1,0 +1,14 @@
+.footer {
+  background-color: $black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__paragraph,
+  &__email {
+    font-size: 1.5rem;
+    color: $background;
+    font-weight: 400;
+  }
+}
