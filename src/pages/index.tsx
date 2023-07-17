@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import albumArtNoText from '../assets/album-art-no-border-no-text.jpeg';
+import Hero from '@/components/hero';
 
 export default function Home() {
   return (
@@ -13,10 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">
-        <div className="background">
-          <Image alt="" fill src={albumArtNoText} objectFit="cover" />
-        </div>
-        <h1>Jonny Vickers</h1>
+        <Hero />
       </main>
     </>
   );
